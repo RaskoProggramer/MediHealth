@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "251566626417",
+    "project_id": "medihealth-6688f",
+    "storage_bucket": "medihealth-6688f.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:251566626417:android:96d61aa633136681f36dd0",
+        "android_client_info": {
+          "package_name": "com.example.medi_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAosga2ZQG0Qlu0VJr-O9GoAglw6F78pPY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:251566626417:android:e88679a35432eeeef36dd0",
+        "android_client_info": {
+          "package_name": "com.example.medihealth"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAosga2ZQG0Qlu0VJr-O9GoAglw6F78pPY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
