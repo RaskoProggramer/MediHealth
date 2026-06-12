@@ -18,7 +18,7 @@ class _MainNavigationScreenState
     extends State<MainNavigationScreen> {
   int currentIndex = 0;
 
-  final List<Widget> screens = const [
+  final List<Widget> screens = [
     DashboardScreen(),
     AppointmentsScreen(),
     MedicationsScreen(),
@@ -35,7 +35,7 @@ class _MainNavigationScreenState
       ),
       bottomNavigationBar: NavigationBar(
         selectedIndex: currentIndex,
-        indicatorColor: const Color(0xFF0D9488).withValues(alpha: 0.2),
+        indicatorColor: Color(0xFF0D9488).withValues(alpha: 0.2),
         onDestinationSelected: (index) {
           setState(() {
             currentIndex = index;
